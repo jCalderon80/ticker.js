@@ -1,6 +1,6 @@
 #TICKER.JS
 ##Full width animated ticker ( no jQuery needed )
-----
+
 ###Description
 
 ###Installation
@@ -8,12 +8,12 @@ Copy the **CSS, JS,** and **ASSETS** folder into your site's root folder.
 
 Declare the css and javascript files in your html document **head** after all the other files.
 
-```html: Your HTML Head
+` ` `html: Your HTML Head
 <head>
     <link rel="stylesheet" href="css/ticker-slider.css"/>
     <script src="js/ticker-slider.js"></script>
 </head>
-
+` ` `
 ###Configuration
 The following is the minimal classes and id needed for the **ticker** to work
 
