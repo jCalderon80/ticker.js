@@ -85,9 +85,9 @@
 }
 
 .black-theme > .right-speeder {
-	background: url("../images/light-ticker-arrows.png") -50px 0px no-repeat;
+	background: url("../assets/light-ticker-arrows.png") -50px 0px no-repeat;
 }
 
 .black-theme > .left-speeder {
-	background: url("../images/light-ticker-arrows.png") 0px 0px no-repeat;
+	background: url("../assets/light-ticker-arrows.png") 0px 0px no-repeat;
 }
