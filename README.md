@@ -13,7 +13,6 @@ Declare the css and javascript files in your html document **head** after all th
     <link rel="stylesheet" href="css/ticker-slider.css"/>
     <script src="js/ticker-slider.js"></script>
 </head>
-```
 
 ###Configuration
 The following is the minimal classes and id needed for the **ticker** to work
