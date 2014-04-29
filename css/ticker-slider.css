@@ -1,0 +1,93 @@
+/**
+ * Strip Slider Theme Styles
+ * 
+ *
+ */
+ 
+/* Ticker Main Container
+----------------------------------------------- */
+.ticker-main {
+	font-size: 18px;
+	height: 56px;
+	position: relative;
+	width: 100%;
+}
+
+.ticker-main, .ticker-main * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+.ticker-main ul, .ticker-main ul li {
+	background: none;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.ticker-main a {
+	padding: 0 10px 0 14px;
+	background: url("../images/dots.png") -10px 4px no-repeat;
+}
+
+/* Ticker Arrows
+----------------------------------------------- */
+.speeder {
+	cursor: pointer;
+	position: absolute;
+	height: 56px;
+	width: 50px;
+}
+
+.right-speeder {
+	right: 100px;
+}
+
+.left-speeder {
+	left: 100px;
+}
+
+/* Strip Wrapper and Ticker Strip
+----------------------------------------------- */
+.strip-wrapper {
+	box-sizing: border-box;
+	margin: 0 100px;
+	overflow: hidden;
+	height: 56px;
+}
+
+#ticker-strip {
+	padding-top: 14px;
+}
+
+#ticker-roller {
+	float: left;
+}
+
+/* Strip Theme Colors
+----------------------------------------------- */
+.black-theme {
+	color: #fff;
+	background: #000;
+}
+
+.black-theme li, .black-theme a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.black-theme a:hover {
+	color: #fff;
+}
+
+.black-theme > .right-speeder {
+	background: url("../images/light-ticker-arrows.png") -50px 0px no-repeat;
+}
+
+.black-theme > .left-speeder {
+	background: url("../images/light-ticker-arrows.png") 0px 0px no-repeat;
+}
