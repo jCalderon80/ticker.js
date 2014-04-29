@@ -9,7 +9,7 @@ Copy the **CSS, JS,** and **ASSETS** folder into your site's root folder.
 
 Declare the css and javascript files in your html document **head** after all the other files.
 
-    ```html: Your HTML Head
+    ```html
 <head>
     <link rel="stylesheet" href="css/ticker-slider.css"/>
     <script src="js/ticker-slider.js"></script>
@@ -21,7 +21,7 @@ Declare the css and javascript files in your html document **head** after all th
 
 The following is the minimal classes and id needed for the **ticker** to work
 
-    ```html: Your HTML
+    ```html
 <body>
     <div><!-- Start your ticker -->
         <div class="right-speeder speeder"></div>
@@ -44,7 +44,7 @@ The following is the minimal classes and id needed for the **ticker** to work
 
 Start the ticker with the ticker() function, it will load default settings
 
-    ```javascript: your JS
+    ```javascript
 ticker();
     ```
 
@@ -58,7 +58,7 @@ ticker();
 
 Example:
 
-    ```javascript: your JS
+    ```javascript
 ticker({
     speed : 50,
     dir : ltr, //ticker will ru from left-to-righ
