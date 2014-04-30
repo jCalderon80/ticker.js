@@ -1,5 +1,6 @@
 #TICKER.JS
-##Full width animated ticker ( no jQuery needed )
+Full width animated ticker ( no jQuery needed )
+
 04-29-2014 [jcalderon80] (http://www.iguana-web.net)
 
 ###Description
@@ -29,10 +30,11 @@ The following is the minimal classes and id needed for the **ticker** to work
         <div class="strip-wrapper">
             <div id="ticker-strip">
                 <ul id="tiker-roller">
-                    <li><a></a></li>
-                    <li><a></a></li>
-                    <li><a></a></li>
-                    <li><a></a></li>
+                    <li><a>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+                    <li><a>Aenean commodo ligula eget dolor.</a></li>
+                    <li><a>Aenean massa.</a></li>
+                    <li><a>Cum sociis natoque penatibus et magnis dis parturient montes.</a></li>
+                    <li><a>Nascetur ridiculus mus donec que</a></li>
                 </ul>
             </div>
         </div>
@@ -61,7 +63,11 @@ Example:
 ```javascript
 ticker({
     speed : 50,
-    dir : ltr, //ticker will ru from left-to-righ
+    dir : 'ltr', //ticker will run from left-to-righ
     stop_on_hover: false //won't stop on hover
 });
+```
+
+```html
+<body></body>
 ```

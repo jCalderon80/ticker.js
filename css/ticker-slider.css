@@ -30,8 +30,7 @@
 }
 
 .ticker-main a {
-	padding: 0 10px 0 14px;
-	background: url("../images/dots.png") -10px 4px no-repeat;
+	padding: 0 10px;
 }
 
 /* Ticker Arrows
